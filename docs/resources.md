@@ -14,16 +14,15 @@
 
 | 文件名 | 说明 | 下载 |
 |-------|------|------|
-| mechanics.pdf | 力学讲义（完整版） | [下载](/files/mechanics.pdf) |
-| electromagnetism.pdf | 电磁学讲义 | [下载](/files/electromagnetism.pdf) |
-| optics.pdf | 光学讲义 | [下载](/files/optics.pdf) |
+| special-relativity.pdf | 狭义相对论讲义 | [下载](/files/general-physics/special-relativity.pdf) |
+|                        |                |                                                       |
 
 ### 习题
 
 | 文件名 | 说明 | 下载 |
 |-------|------|------|
-| exercises-mechanics.pdf | 力学习题集（含答案） | [下载](/files/exercises-mechanics.pdf) |
-| exercises-em.pdf | 电磁学习题集 | [下载](/files/exercises-em.pdf) |
+|  |  |  |
+|  |  |  |
 
 ---
 
@@ -31,8 +30,15 @@
 
 | 文件名 | 说明 | 下载 |
 |-------|------|------|
-| group-theory-notes.pdf | 群论讲义 | [下载](/files/group-theory-notes.pdf) |
-| character-tables.pdf | 常用特征标表 | [下载](/files/character-tables.pdf) |
+| AbstractGroupTheory-2023.pdf | G. Moore 群论讲义 | [下载](/files/group-theory/AbstractGroupTheory-2023.pdf) |
+|  |  |  |
+
+### 习题
+
+| 文件名 | 说明 | 下载 |
+| ------ | ---- | ---- |
+|        |      |      |
+|        |      |      |
 
 ---
 
@@ -40,8 +46,8 @@
 
 | 文件名 | 说明 | 下载 |
 |-------|------|------|
-| ml-physics-intro.pdf | 机器学习基础讲义 | [下载](/files/ml-physics-intro.pdf) |
-| pinn-tutorial.pdf | PINN 教程 | [下载](/files/pinn-tutorial.pdf) |
+|  |  |  |
+|  |  |  |
 
 ---
 
