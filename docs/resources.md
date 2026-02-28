@@ -14,14 +14,12 @@
 
 | 文件名 | 说明 | 下载 |
 |-------|------|------|
-| special-relativity.pdf | 狭义相对论讲义 | [下载](/files/general-physics/special-relativity.pdf) |
-|                        |                |                                                       |
+| special-relativity.pdf | 狭义相对论讲义 | [下载](/physics-site/files/general-physics/special-relativity.pdf) |
 
 ### 习题
 
 | 文件名 | 说明 | 下载 |
 |-------|------|------|
-|  |  |  |
 |  |  |  |
 
 ---
@@ -30,15 +28,13 @@
 
 | 文件名 | 说明 | 下载 |
 |-------|------|------|
-| AbstractGroupTheory-2023.pdf | G. Moore 群论讲义 | [下载](/files/group-theory/AbstractGroupTheory-2023.pdf) |
-|  |  |  |
+| AbstractGroupTheory-2023.pdf | G. Moore 群论讲义 | [下载](/physics-site/files/group-theory/AbstractGroupTheory-2023.pdf) |
 
 ### 习题
 
 | 文件名 | 说明 | 下载 |
-| ------ | ---- | ---- |
-|        |      |      |
-|        |      |      |
+|-------|------|------|
+|  |  |  |
 
 ---
 
@@ -47,7 +43,6 @@
 | 文件名 | 说明 | 下载 |
 |-------|------|------|
 |  |  |  |
-|  |  |  |
 
 ---
 
@@ -55,7 +50,7 @@
 
 1. 将文件放入 `public/files/` 目录
 2. 在此页面添加对应的表格行
-3. 链接格式为 `/files/文件名`
+3. 链接格式为 `/physics-site/files/文件名`
 
 ::: warning 文件大小限制
 如果文件较大（>50MB），建议使用云盘链接。GitHub 有单文件 100MB 限制。
