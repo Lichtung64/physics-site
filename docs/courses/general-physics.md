@@ -8,7 +8,7 @@
 
 ## 教学内容
 
-### [导言](/general-physics/introduction)
+### [导言](/courses/college-physics/introduction)
 
 ### 第一章：质点运动学
 
