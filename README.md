@@ -2,6 +2,8 @@
 
 大学物理教师个人网站，基于 VitePress 构建。
 
+https://lichtung64.github.io/physics-site/
+
 ## 本地开发
 
 ```bash
