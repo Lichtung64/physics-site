@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-import markdownItKatex from 'markdown-it-katex'
+import markdownItMathJax3 from 'markdown-it-mathjax3'
 
 export default defineConfig({
   title: '物理小站',
@@ -90,16 +90,17 @@ export default defineConfig({
 
   markdown: {
     config: (md) => {
-      md.use(markdownItKatex)
+      md.use(markdownItMathJax3)
     }
   },
 
   head: [
     [
-      'link',
+      'script',
       {
-        rel: 'stylesheet',
-        href: 'https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css'
+        id: 'MathJax-script',
+        async: true,
+        src: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js'
       }
     ]
   ]
