@@ -10,15 +10,13 @@
 
 ### [导言](/courses/college-physics/introduction)
 
+### [数学基础：矢量微积分](/courses/college-physics/0vector-calculus)
+
 ### 第一章：质点运动学
 
-- 位置矢量与位移
-- 速度与加速度
-- 切向加速度与法向加速度
+[（1）位置矢量、速度与加速度](/courses/college-physics/1particle-kinetics1)
 
-**核心公式：**
-
-$$\vec{v} = \frac{d\vec{r}}{dt}, \quad \vec{a} = \frac{d\vec{v}}{dt}$$
+(2) 圆周运动
 
 ### 第二章：质点动力学
 
