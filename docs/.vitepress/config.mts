@@ -11,6 +11,7 @@ export default defineConfig({
   head: [
     ['meta', { name: 'theme-color', content: '#9f432e' }],
     ['meta', { name: 'color-scheme', content: 'light dark' }],
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
     [
       'script',
       {
@@ -22,6 +23,7 @@ export default defineConfig({
   ],
 
   themeConfig: {
+    logo: '/logo.svg',
     siteTitle: '物理小站',
 
     nav: [
