@@ -3,33 +3,45 @@ layout: home
 
 hero:
   name: "物理小站"
-  text: "大学物理教学资源"
-  tagline: 讲义 · 课程 · 文章 · 资料下载
+  text: "像一本精心排版的课程讲义"
+  tagline: 面向学生整理课程讲义、物理文章与资料下载，让课堂之外的学习也能顺着脉络展开。
   actions:
     - theme: brand
-      text: 浏览课程
+      text: 进入课程
       link: /courses/
     - theme: alt
-      text: 阅读文章
+      text: 下载资料
+      link: /resources
+    - theme: alt
+      text: 浏览文章
       link: /articles/
 
 features:
-  - icon: 📚
-    title: 大学物理
-    details: 力学、光学、热学、电磁学、近代物理等
-  - icon: 🧮
-    title: 群论
-    details: 群论基础及其在物理学中的应用
-  - icon: 🤖
-    title: 物理与 AI
-    details: 一些有关 AI 和物理的碎碎念
+  - icon: ✦
+    title: 课程脉络清楚
+    details: 从大学物理到群论，再到物理与 AI，把课程内容整理成可连续阅读的学习路径。
+  - icon: ∫
+    title: 公式与推导友好
+    details: 面向数学表达和长篇讲义优化排版，阅读公式、证明和表格时更稳定。
+  - icon: ▣
+    title: 讲义与下载分明
+    details: 文章、讲义、PDF 资料分开组织，学生更容易找到该看的内容和该下的文件。
 ---
 
-<style>
-:root {
-  --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe 30%, #41d1ff);
-  --vp-home-hero-image-background-image: linear-gradient(-45deg, #bd34fe 50%, #47caff 50%);
-  --vp-home-hero-image-filter: blur(44px);
-}
-</style>
+## 课堂之外
+
+把讲课内容整理成一座可以慢慢逛的小型资料馆。
+
+这个网站不是展示型主页，而是一个真正给学生使用的教学入口。你可以先按课程进入，也可以直接查找讲义、阅读文章，或者去下载 PDF 资料。
+
+### 快速开始
+
+- 先进入 [课程总览](/courses/)，找到对应课程。
+- 如果只想拿文件，直接去 [资料下载](/resources)。
+- 想读拓展内容，可以从 [文章列表](/articles/) 开始。
+
+### 适合学生的浏览方式
+
+- 课前：下载讲义，快速预习。
+- 课后：顺着课程页回顾重点。
+- 拓展：从文章区阅读概念背后的物理思想。
