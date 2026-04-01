@@ -6,8 +6,21 @@ export default defineConfig({
   description: '大学物理教学资源站',
   lang: 'zh-CN',
 
-  // 基础路径，如果部署到 GitHub Pages 的子路径需要修改
   base: '/physics-site/',
+
+  head: [
+    ['meta', { name: 'theme-color', content: '#9f432e' }],
+    ['meta', { name: 'color-scheme', content: 'light dark' }],
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
+    [
+      'script',
+      {
+        id: 'MathJax-script',
+        async: true,
+        src: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js'
+      }
+    ]
+  ],
 
   themeConfig: {
     logo: '/logo.svg',
@@ -35,19 +48,13 @@ export default defineConfig({
       '/articles/': [
         {
           text: '文章',
-          items: [
-            { text: '文章列表', link: '/articles/' }
-          ]
+          items: [{ text: '文章列表', link: '/articles/' }]
         }
       ]
     },
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/your-username' }
-    ],
-
     footer: {
-      message: '物理小站 - 专注物理教学',
+      message: '面向学生的课程讲义、学习文章与资料下载',
       copyright: 'Copyright © 2024-present'
     },
 
@@ -56,8 +63,8 @@ export default defineConfig({
       options: {
         translations: {
           button: {
-            buttonText: '搜索文档',
-            buttonAriaLabel: '搜索文档'
+            buttonText: '搜索课程与文章',
+            buttonAriaLabel: '搜索课程与文章'
           },
           modal: {
             noResultsText: '无法找到相关结果',
@@ -92,16 +99,6 @@ export default defineConfig({
     config: (md) => {
       md.use(markdownItMathJax3)
     }
-  },
-
-  head: [
-    [
-      'script',
-      {
-        id: 'MathJax-script',
-        async: true,
-        src: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js'
-      }
-    ]
-  ]
+  }
 })
+
